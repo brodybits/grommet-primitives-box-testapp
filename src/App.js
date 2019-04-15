@@ -1,26 +1,19 @@
 import React, { Component } from 'react';
 
-import { View } from 'react-primitives';
+import { Text, View } from 'react-primitives';
 
 class App extends Component {
   render() {
     return (
       <View>
-        <div className="App">
-        <header className="App-header">
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-        </div>
+        <h2>First part</h2>
+        <Text>text component</Text>
+        <div>div text</div>
+        <h2>Second part in another View</h2>
+        <View>
+          <Text>text component</Text>
+          <div>div text</div>
+        </View>
       </View>
     );
   }

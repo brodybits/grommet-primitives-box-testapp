@@ -23,14 +23,20 @@ class App extends Component {
     return (
       <View>
         <AppBar>
-          Hello Grommet App
+          <Text style={{color: 'white', fontSize: 28, fontWeight: 'bold'}}>
+            Hello Grommet App
+          </Text>
         </AppBar>
         <Box>
-          <h2>First part</h2>
+          <Text style={{fontSize: 28, fontWeight: 'bold'}}>
+            ☆ First part ☆
+          </Text>
           <Text>text component</Text>
           <div>div text</div>
         </Box>
-        <h2>Second part in another View</h2>
+        <Text style={{fontSize: 28, fontWeight: 'bold'}}>
+          ☆ Second part in another View ☆
+        </Text>
         <View>
           <Text>text component</Text>
           <div>div text</div>

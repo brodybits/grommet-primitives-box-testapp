@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
 
+import { View } from 'react-primitives';
+
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <View>
+        <div className="App">
         <header className="App-header">
           <p>
             Edit <code>src/App.js</code> and save to reload.
@@ -17,7 +20,8 @@ class App extends Component {
             Learn React
           </a>
         </header>
-      </div>
+        </div>
+      </View>
     );
   }
 }

@@ -1,0 +1,3 @@
+[submodule "src/grommet-primitives-fork"]
+	path = src/grommet-primitives-fork
+	url = https://github.com/brodybits/grommet-primitives-fork

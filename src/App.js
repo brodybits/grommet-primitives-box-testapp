@@ -3,7 +3,7 @@
 // and get rid of react/react-in-jsx-scope rule
 import React, { Component } from 'react';
 
-import { Box } from 'grommet';
+import { Box } from './grommet-imports';
 
 import { Text, View } from 'react-primitives';
 

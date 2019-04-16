@@ -1,3 +1,6 @@
+// import React due to JSX
+// FUTURE TODO: just import createElement
+// and get rid of react/react-in-jsx-scope rule
 import React, { Component } from 'react';
 
 import { Box } from 'grommet';

@@ -7,6 +7,8 @@ import { Box } from './grommet-imports';
 
 import { Text, View } from 'react-primitives';
 
+// source:
+// https://github.com/grommet/grommet-starter-new-app
 const AppBar = (props) => (
   <Box
     tag='header'

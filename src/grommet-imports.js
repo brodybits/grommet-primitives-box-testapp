@@ -1,3 +1,3 @@
-import { Box } from 'grommet';
+import { Box } from './grommet-primitives-fork/src/js/components/Box';
 
 export { Box };

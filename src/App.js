@@ -28,7 +28,7 @@ class App extends Component {
     return (
       <View>
         <AppBar>
-          <Text style={{color: 'white', fontSize: 28, fontWeight: 'bold'}}>
+          <Text style={{color: 'gold', fontSize: 28, fontWeight: 'bold'}}>
             Hello Grommet App
           </Text>
         </AppBar>

@@ -38,14 +38,14 @@ class App extends Component {
             ☆ First part ☆
           </Text>
           <Text>text component</Text>
-          <div>div text</div>
+          <div>second line in div text</div>
         </Box>
         <Text style={{fontSize: 28, fontWeight: 'bold'}}>
-          ☆ Second part in another View ☆
+          ☆ Part 2 in own View ☆
         </Text>
         <View>
-          <Text>text component</Text>
-          <div>div text</div>
+          <Text>another text component</Text>
+          <div>second line in div text</div>
         </View>
       </View>
     );

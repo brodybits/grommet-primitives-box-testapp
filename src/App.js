@@ -11,7 +11,8 @@ import { Text, View } from 'react-primitives';
 // https://github.com/grommet/grommet-starter-new-app
 const AppBar = (props) => (
   <Box
-    tag='header'
+    // NOT SUPPORTED by primitives:
+    // tag='header'
     direction='row'
     align='center'
     justify='between'

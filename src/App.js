@@ -3,7 +3,7 @@
 // and get rid of react/react-in-jsx-scope rule
 import React, { Component } from 'react';
 
-import { Box } from './grommet-imports';
+import { Box, Grommet } from './grommet-imports';
 
 import { Text, View } from 'react-primitives';
 
@@ -26,10 +26,20 @@ const AppBar = (props) => (
   />
 );
 
+// source:
+// https://github.com/grommet/grommet-starter-new-app
+const theme = {
+  global: {
+    colors: {
+      brand: '#228BE6',
+    },
+  },
+};
+
 class App extends Component {
   render() {
     return (
-      <View>
+      <Grommet theme={theme}>
         <AppBar>
           <Box>
             <Text style={{color: 'gold', fontSize: 28, fontWeight: 'bold'}}>
@@ -54,7 +64,7 @@ class App extends Component {
           <Text>another text component</Text>
           <Text>second line in a text component</Text>
         </View>
-      </View>
+      </Grommet>
     );
   }
 }

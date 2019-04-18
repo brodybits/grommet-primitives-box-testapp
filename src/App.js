@@ -18,8 +18,10 @@ const AppBar = (props) => (
     justify='between'
     background='brand'
     pad={{ left: 'medium', right: 'small', vertical: 'small' }}
+    /* ** TBD NOT WORKING on Android:
     elevation='medium'
     style={{ zIndex: '1' }}
+    // */
     {...props}
   />
 );

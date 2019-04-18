@@ -3,20 +3,22 @@
   "version": "0.0.1-dev",
   "license": "Apache-2.0",
   "private": true,
+  "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "echo 'must use start-web or start-expo' && exit 1",
     "start-web": "react-scripts start",
-    "start-expo": "echo 'not supported' && exit 1",
+    "start-expo": "expo start",
     "build": "echo 'must use build-web or build-expo' && exit 1",
     "build-web": "react-scripts build",
     "build-expo": "echo 'not supported' && exit 1",
     "test": "echo 'not supported' && exit 1",
     "eject": "echo 'must use eject-web or eject-expo (not recommended)' && exit 1",
     "eject-web": "react-scripts eject",
-    "eject-expo": "echo 'not supported' && exit 1"
+    "eject-expo": "expo eject"
   },
   "dependencies": {
     "css": "^2.2.4",
+    "expo": "^32.0.6",
     "grommet-icons": "^4.2.0",
     "grommet-styles": "^0.2.0",
     "hoist-non-react-statics": "^3.3.0",
@@ -24,11 +26,15 @@
     "react": "16.5.0",
     "react-desc": "^4.1.2",
     "react-dom": "^16.8.6",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
     "react-native-web": "^0.11.2",
     "react-primitives": "^0.8.0",
     "react-scripts": "2.1.8",
     "recompose": "^0.30.0",
     "styled-components": "^4.2.0"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "^5.1.1"
   },
   "eslintConfig": {
     "extends": "react-app"

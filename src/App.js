@@ -43,22 +43,22 @@ class App extends Component {
         <AppBar>
           <Box>
             <Text style={{color: 'gold', fontSize: 28, fontWeight: 'bold'}}>
-              ☆ ☆ ☆ ☆ ☆ ☆ ☆ ☆ ☆ ☆
+              ☆ ☆ ☆ ☆ ☆ ☆ ☆ ☆ ☆
             </Text>
             <Text style={{color: 'gold', fontSize: 28, fontWeight: 'bold'}}>
-              ☆ Hello Grommet App ☆
+              ☆ Hello Grommet!
             </Text>
           </Box>
         </AppBar>
         <Box>
           <Text style={{fontSize: 28, fontWeight: 'bold'}}>
-            ☆ First part ☆
+            First part
           </Text>
           <Text>text component</Text>
           <Text>second line in a text component</Text>
         </Box>
         <Text style={{fontSize: 28, fontWeight: 'bold'}}>
-          ☆ Part 2 in own View ☆
+          Part 2 in its own View
         </Text>
         <View>
           <Text>another text component</Text>

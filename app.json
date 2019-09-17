@@ -3,7 +3,7 @@
     "name": "grommet-primitives box test app",
     "slug": "grommet-primitives-box-testapp",
     "privacy": "public",
-    "sdkVersion": "32.0.0",
+    "sdkVersion": "34.0.0",
     "platforms": [
       "ios",
       "android"
